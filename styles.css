@@ -1,0 +1,54 @@
+.bg {
+    background-color: antiquewhite;
+    height: 600px;
+    width: 650px;
+    font-size: 20px;
+    padding: 20px;
+    transform: translate(100px, 100px);
+}
+
+.bg h1 {
+    padding: 10px;
+}
+
+.but .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); /* Full width of .bg with some padding */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.but button {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-color: rgba(238, 93, 8, 0.644);
+    border: none;
+    cursor: pointer;
+}
+
+.but p {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    height: 50px; 
+    display: flex;
+    background-color:white;
+    align-items: center;
+    justify-content: flex-start;
+    width: calc(100% - 70px);
+}
+
+.correct {
+    background-color: lightgreen !important;
+    color: green !important;
+}
+
+.incorrect {
+    background-color: lightcoral !important;
+    color: red !important;
+}
+
+
